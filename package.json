@@ -4,6 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "vercel dev",
-    "deploy": "vercel deploy --prod"
+    "build": "echo 'No build step needed for Edge Functions'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^37.0.0"
   }
 }
