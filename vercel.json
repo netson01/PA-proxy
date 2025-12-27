@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "edge.js": {
+      "runtime": "edge@99.99.99"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/edge.js"
+    }
+  ]
+}
