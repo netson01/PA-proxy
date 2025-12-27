@@ -1,13 +1,13 @@
 {
   "functions": {
-    "edge.js": {
+    "api/index.js": {
       "runtime": "edge@99.99.99"
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/edge.js"
+      "destination": "/api/index"
     }
   ]
 }
